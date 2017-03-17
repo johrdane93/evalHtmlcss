@@ -1,0 +1,182 @@
+/*.inline-b{
+  display: inline-block;
+}*/
+body{
+
+  background-size: cover;
+}
+nav li{
+  display: inline-block;
+
+}
+header{
+  background-image:#fff;
+  position: relative;
+  padding-bottom: 466px;
+  background-size: inherit;
+}
+nav{
+  display: block;
+  margin: auto;
+  width: 14%;
+}
+#logo{
+  top: 60px;
+  margin: auto;
+  width: 200px;
+  position: relative;
+}
+#logo img{
+  top: -8px;
+  position: absolute;
+  width: 167%;
+  margin-left: -38%;
+}
+#logo div{
+  width: 0;
+	height: 0;
+	border-top: 168px solid ;
+	border-left: 223px solid transparent;
+}
+/*.pBloque-right, .pBloque-left{
+  vertical-align: middle;
+  display: inline-block;
+}
+.pBloque-right{
+  width: 25%;
+}
+.pBloque-left{
+  width: 75%;
+}
+#Leservice .pBloque-right{
+  width: 80%;
+
+}
+
+#Leservice .pBloque-left {
+  width: 20%;
+
+
+}
+*/
+
+.pager{
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.pager img{
+  width: 100%;
+}
+.pager h2{
+  color:red;
+}
+section{
+    text-align: center;
+
+}
+section p, section h2,section h3,section h4{
+  padding: 0 15px 0;
+  text-align: center;
+}
+
+/*section img{
+  width: 100%;
+}*/
+
+#lasalle img {
+
+}
+
+/*#Leservice img {
+    width: 75%;
+    background-color: red;
+    /*margin-left: px;
+    padding-left:
+  ;
+   }*/
+
+#Ledressage img {
+}
+
+h1{
+  background:transparent;
+  background-size: 100% 25px;
+  border-color: #000;
+  border-width: 1px 0 1px;
+  border-style: solid;
+  border-spacing: 50px;
+  text-align: center;
+  width: 17%;
+  display:block;
+  margin: auto;
+  text-transform: uppercase;
+  }
+  h1 span{
+    font-size: 40px;
+    display: inline;
+    vertical-align: top;
+    position: relative;
+  }
+  h1 span:after{
+    top: 15px;
+    /*content:"-";*/
+
+    position:absolute;
+    left: 0;
+}
+footer{
+  text-align: center
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 30;
+  font-family: sans-serif;
+}
+footer h1{
+  background:transparent;
+  background-size: 100% 25px;
+  border-color: #000;
+  border-width: 1px 0 1px;
+  border-style: solid;
+  border-spacing: 50px;
+  text-align: center;
+  width: 17%;
+  display:block;
+  margin: auto;
+  text-transform: uppercase;
+
+}
+footer .fa{
+  color:red;
+  background-color:#333333;
+  margin: 10px;
+  padding: 0 6px;
+  border-radius: 10px;
+  transition: 1s;
+}
+footer .fa:hover{
+  color: blue;
+  background-color:darkmagenta;
+  animation-name: clignote;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes clignote{
+  20%{
+    color:red;
+    background-color: darkblue
+  }
+  40%{
+    color: #333333;
+    background-color: white;
+  }
+  50%{
+    color: #ffff00;
+    background-color: red;
+  }
+  100%{
+    color: blue;
+    background-color: red;
+  }
+}
